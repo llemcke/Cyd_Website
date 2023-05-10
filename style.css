@@ -1,0 +1,137 @@
+body{
+    background-color: #dec4c4;
+    background-size:contain;
+    
+      justify-content: center;
+      align-items: center;
+}
+.home{
+
+    font-size: 5vw;
+    font-family: Georgia, Serif;
+    position: relative;
+    top: 20vw; left:5vw; 
+}
+.dot1{
+    height: 20vw;
+    width: 20vw;
+    background-color: #db9f95;
+    position:fixed;
+    top: 15vw; left:60vw; 
+    border-radius: 50vw;
+    display:flex;
+  }
+  .dot2{
+    height: 8vw;
+    width: 8vw;
+    background-color: #a4b0b4;
+    border-radius: 50vw;
+    position:fixed;
+    top: 15vw; left:76vw; 
+    display:flex;
+  }
+  .dot3{
+    height: 17vw;
+    width: 17vw;
+    background-color: #5b6e74;
+    border-radius: 50%;
+    position:fixed;
+    top: 34vw; left:75vw; 
+    display:flex;
+  }
+  .dot4{
+    height: 10vw;
+    width: 10vw;
+    background-color: #f3d7d4;
+    border-radius: 50%;
+    position:fixed;
+    top: 28vw; left:74vw; 
+    display:flex;
+   
+  }
+  .dot5{
+    height: 8vw;
+    width: 8vw;
+    background-color: #c26667;
+    border-radius: 50vw;
+    position:fixed;
+    top: 39vw; left: 65vw; 
+    display:flex;
+  }
+  .dot6{
+    height: 5vw;
+    width: 5vw;
+    background-color: #702c2b;
+    border-radius: 50vw;
+    position:fixed;
+    top: 22vw; left: 85vw; 
+    display:flex;
+  }
+  .title{
+    font-size: 5vw;
+    color: #702c2b;
+    font-family:  Serif;
+    position: absolute;
+    top: 11vw; left:5vw; 
+}
+
+.buttonStyle button{
+    background-color: #5b6e74; 
+    font-family:  Serif;
+    position:relative;
+    border: white;
+    color:white;
+    padding: 0.8vw 1.5vw;
+    text-align: center;
+    text-decoration: none;
+    display:inline-flexbox;
+    border-radius: 0.2vw;
+    font-size: 1.5vw;
+    
+  }
+  .buttonStyle button:hover{
+    background-color: #5b6e90; 
+      cursor: pointer;
+  }
+  .current{
+    
+    font-family:  Serif;
+    background-color: #a4b0b4; 
+    position:relative;
+    color:white;
+    padding: 0.8vw 1.5vw;
+    border-radius: 0.2vw;
+    text-align: center;
+    text-decoration: none;
+    display:inline-flexbox;
+    font-size: 1.5vw;
+  }
+  .socials button{
+    
+    padding: 1vw 1vw;
+    cursor:pointer;
+    border:none;
+    
+    
+}
+.socials button:hover{
+    cursor: pointer;
+    
+}
+#linkedin{
+  background:url("images/linked.png");
+  background-size: contain;
+  position:absolute;
+  border-color: transparent;
+  width:2vw;
+  height:2vw;
+  right:50vw;
+  bottom: 1vw;
+
+  filter: invert(78%) sepia(21%) saturate(4117%) hue-rotate(332deg) brightness(95%) contrast(84%);
+}
+#linkedin:hover{
+  opacity: 30%;
+  
+}
+  
